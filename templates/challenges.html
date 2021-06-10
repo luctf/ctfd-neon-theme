@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block stylesheets %}
-  <link rel="stylesheet" href="{{ url_for('views.themes', theme='core', path='css/challenge-board.css') }}">
+  <link rel="stylesheet" href="https://chainflag-1251113644.cos.ap-beijing.myqcloud.com/themes/core/static/css/challenge-board.min.css">
 {% endblock %}
 
 {% block content %}
@@ -32,5 +32,5 @@
 {% block scripts %}{% endblock %}
 
 {% block entrypoint %}
-  <script defer="defer" src="{{ url_for('views.themes', theme='core', path='js/pages/challenges.js') }}"></script>
+  <script defer="defer" src="https://chainflag-1251113644.cos.ap-beijing.myqcloud.com/themes/core/static/js/pages/challenges.min.js"></script>
 {% endblock %}

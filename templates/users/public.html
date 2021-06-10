@@ -156,10 +156,9 @@
 			'account_id': user.id,
 		} | tojson }};
 	</script>
-	<script defer src="{{ url_for('views.themes', theme='core', path='js/echarts.bundle.js') }}"></script>
-	<script defer src="{{ url_for('views.themes', theme='core', path='js/graphs.js') }}"></script>
+	<script defer src="https://chainflag-1251113644.cos.ap-beijing.myqcloud.com/themes/core/static/js/echarts.bundle.min.js"></script>
 {% endblock %}
 
 {% block entrypoint %}
-	<script defer src="{{ url_for('views.themes', theme='core', path='js/pages/stats.js') }}"></script>
+	<script defer src="https://chainflag-1251113644.cos.ap-beijing.myqcloud.com/themes/core/static/js/pages/stats.min.js"></script>
 {% endblock %}

@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="{{ Configs.ctf_small_icon }}" type="image/x-icon">
-    <link rel="stylesheet" href="{{ url_for('views.themes', theme='core', path='css/fonts.css') }}">
-    <link rel="stylesheet" href="{{ url_for('views.themes', theme='core', path='css/core.min.css') }}">
-    <link rel="stylesheet" href="{{ url_for('views.themes', path='css/style.dev.css') }}">
-    <link rel="stylesheet" href="{{ url_for('views.themes', path='css/bootstrap4-neon-glow.min.css') }}">
+    <link rel="stylesheet" href="https://chainflag-1251113644.cos.ap-beijing.myqcloud.com/themes/core/static/css/fonts.min.css">
+    <link rel="stylesheet" href="https://chainflag-1251113644.cos.ap-beijing.myqcloud.com/themes/core/static/css/core.min.css">
+    <link rel="stylesheet" href="https://chainflag-1251113644.cos.ap-beijing.myqcloud.com/themes/neon/static/css/style.dev.css">
+    <link rel="stylesheet" href="https://chainflag-1251113644.cos.ap-beijing.myqcloud.com/themes/neon/static/css/bootstrap4-neon-glow.min.css">
 
     <link rel='stylesheet' href='//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css'>
     {% block stylesheets %}{% endblock %}
@@ -43,12 +43,12 @@
       </div>
     </footer>
 
-    <script defer="defer" src="{{ url_for('views.themes', theme='core', path='js/vendor.bundle.js') }}"></script>
-    <script defer="defer" src="{{ url_for('views.themes', theme='core', path='js/core.js') }}"></script>
-    <script defer="defer" src="{{ url_for('views.themes', theme='core', path='js/helpers.js') }}"></script>
+    <script defer="defer" src="https://chainflag-1251113644.cos.ap-beijing.myqcloud.com/themes/core/static/js/vendor.bundle.min.js"></script>
+    <script defer="defer" src="https://chainflag-1251113644.cos.ap-beijing.myqcloud.com/themes/core/static/js/core.min.js"></script>
+    <script defer="defer" src="https://chainflag-1251113644.cos.ap-beijing.myqcloud.com/themes/core/static/js/helpers.min.js"></script>
 
     {% block entrypoint %}
-      <script defer="defer" src="{{ url_for('views.themes', theme='core', path='js/pages/main.js') }}"></script>
+      <script defer="defer" src="https://chainflag-1251113644.cos.ap-beijing.myqcloud.com/themes/core/static/js/pages/main.min.js"></script>
     {% endblock %}
 
     {% block scripts %}{% endblock %}
