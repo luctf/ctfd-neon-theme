@@ -37,12 +37,11 @@
     </main>
 
     <footer class="footer">
-        <div class="container text-center">
-            {% if url_for(request.endpoint) == '/' %}
-                Powered by
-                <a href="https://ctfd.io" class="text-secondary">CTFd</a>
-            {% endif %}
-        </div>
+      <div class="container text-center">
+        <a href="https://ctfd.io" class="text-secondary">
+          <small class="text-muted">Powered by CTFd</small>
+        </a>
+      </div>
     </footer>
 
     <script defer="defer" src="https://chainflag-1251113644.cos.ap-beijing.myqcloud.com/themes/core/static/js/vendor.bundle.min.js"></script>
